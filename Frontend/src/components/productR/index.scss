@@ -1,0 +1,13 @@
+.product-recommend {
+  margin-right: 3%;
+  margin-bottom: 2%;
+  width: 22%;
+  color: var(--dark-text);
+  background-color: var(--light-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1vw;
+  font-weight: bold;
+  cursor: pointer;
+}

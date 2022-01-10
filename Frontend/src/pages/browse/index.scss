@@ -1,0 +1,15 @@
+.browse-container {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  flex-wrap: wrap;
+}
+
+.browse-container-image {
+  width: 18vw;
+  height: auto;
+  max-height: 34vh;
+  object-fit: scale-down;
+  margin: 1vh 1vw;
+  cursor: pointer;
+}

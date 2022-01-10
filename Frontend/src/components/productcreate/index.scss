@@ -1,0 +1,35 @@
+.product-create-input-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.product-create-input-list > label{
+  font-size: 2vw;
+}
+
+.product-create-input-list > input{
+  height: 2vw;
+  width: 60%;
+  margin:  10px 0 10px 0;
+  font-size: 2.5vh;
+}
+
+.product-create-input-list > textarea{
+  height: 100px;
+  width: 60%;
+}
+
+.product-create-input-list > select{
+  width: 40%;
+}
+
+.product-create-input-list > input[type="file"]{
+  height: 4vw;
+}
+
+.product-create-input-list > button{
+  font-size: 1.2vw;
+  height: 4vw;
+  width: 15vw;
+  margin:  10px 0 10px 0;
+}

@@ -1,0 +1,30 @@
+.navbar-container {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  border-top: solid 2px var(--dark-background);
+  border-bottom: solid 2px var(--dark-background);
+}
+
+.navbar-button{
+  font-weight: bolder;
+  font-size: 3vh;
+  font-family:  Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-background);
+  border: none;
+  color: var(--dark-text);
+
+  &:hover {
+    background-color: var(--grey-background);
+    color: var(--white-text);
+  }
+
+}

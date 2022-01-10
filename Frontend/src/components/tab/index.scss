@@ -1,0 +1,46 @@
+.tab-item {
+  font-weight: bolder;
+  font-size: 3vh;
+  font-family:  Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-text);
+  background-color: var(--light-background);
+
+  &:hover {
+    background-color: var(--grey-background);
+    color: var(--white-text);
+  }
+}
+
+.tab-dropdown{
+  position: absolute;
+  top: 6vh;
+  left: 0;
+  background-color: white;
+  color: var(--dark-text);
+  background-color: var(--light-background);
+  width: calc(100% - 44px);
+  height: auto;
+  border: 2px black solid;
+  padding: 20px 0 20px 40px;
+}
+
+.tab-dropdown-off{
+  display: none;
+}
+
+.tab-title-text{
+  cursor: pointer;
+}
+
+.cate3-option{
+  margin-left: 30px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: lighter;
+}

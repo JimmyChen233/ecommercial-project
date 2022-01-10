@@ -1,0 +1,30 @@
+.user-theme-container{
+	padding-left: 20px;
+}
+
+.user-theme-container img{
+	height: 210px;
+	width: 280px;
+	object-fit: scale-down;
+}
+
+.user-theme-container p{
+	font-size: 20px;
+	color: var(--dark-text);
+}
+
+.user-theme-container button{
+	background-color: var(--dark-background);
+	color: var(--white-text);
+	font-weight: bold;
+	border: none;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.user-theme-box{
+	width: auto;
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,21 @@
+.toast-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%,-50%);
+  min-width: 300px;
+  max-width: 600px;
+  width: auto;
+  height: 150px;
+  color: white;
+  background-color: darkgrey;
+  font-size: large;
+  font-weight: bolder;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  opacity: 0.9;
+}

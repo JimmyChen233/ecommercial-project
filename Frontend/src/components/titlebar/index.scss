@@ -1,0 +1,123 @@
+.titlebar-container {
+  height: 15vh;
+  width: 100%;
+  background-color: var(--light-background);
+  display: flex;
+  align-items: center;
+}
+
+.title-icon {
+  position: relative;
+  margin-left: 5vw;
+  height: auto;
+  width: 8%;
+  cursor: pointer;
+}
+
+.titlebar-search {
+  display:flex;
+  align-items: center;
+  height: 40%;
+  width: 60%;
+  margin-left: 5%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--dark-text);
+}
+.search-icon {
+  margin-left: 5px;
+  height: 100%;
+  width: auto;
+}
+
+.titlebar-search-input-bar{
+  width: 100%;
+  height: 80%;
+  margin: 0px 3% 0px 0;
+  font-size: 2.5vh;
+  border-style: none;
+  background-color:transparent;
+  color: var(--dark-text);
+}
+
+.titlebar-search-input-bar:focus{
+  outline: none;
+}
+
+.titlebar-search-button{
+  margin-left: 2vw;
+  width: 10%;
+  height: 42%;
+  background-color: var(--dark-background);
+  color: white;
+  font-weight: bold;
+  font-size: 1.7vw;
+  border: solid 2px var(--dark-background);
+  cursor: pointer;
+  color: var(--white-text);
+}
+
+.titlebar-welcome {
+  font-weight: bolder;
+  width: 12%;
+  margin-left: 3%;
+}
+
+.titlebar-account{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--dark-text);
+}
+
+.titlebar-user-icon{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.titlebar-msg-reminder{
+  z-index: 1;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  width: 17px;
+  height: 17px;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: var(--white-text);
+  background-color: var(--warning);
+  border-radius: 50%;
+}
+
+.titlebar-icon {
+  height: 60%;
+  width: auto;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.logout {
+  color: var(--warning);
+  text-decoration: underline;
+}
+
+#logout:visited {
+  color: var(--warning);
+  text-decoration: underline;
+}
+
+

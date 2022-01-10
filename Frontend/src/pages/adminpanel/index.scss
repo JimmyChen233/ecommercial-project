@@ -1,0 +1,70 @@
+.panel-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+.panel-titlebar-container {
+  height: 15vh !important;
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 2px grey;
+  background-color: orange;
+}
+
+.panel-title-icon {
+  position: absolute;
+  margin-left: 5vw;
+  height: auto;
+  width: 8%;
+  cursor: pointer;
+}
+.panel-title-name{
+  margin: 0 auto 0 auto;
+  font-size: 4vw;
+  font-family: Arial;
+  font-weight: 800;
+}
+
+.sidebutton-on{
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  background-color: darkgrey;
+  border: none;
+  margin: 0 !important;
+  cursor: pointer;
+}
+
+.sidebutton-off{
+  width: 100%;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-product-box{
+  height: 150px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.panel-body{
+    flex: 4;
+    padding-top:30px;
+    padding-left:2%; 
+    border-left: solid 3px var(--grey-background);
+}
+

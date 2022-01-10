@@ -1,0 +1,55 @@
+.product-detail-input-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.product-detail-input-list label{
+  font-size: 2vw;
+}
+
+.product-detail-input-list > input{
+  height: 2vw;
+  width: 60%;
+  margin:  10px 0 10px 0;
+  font-size: 2.5vh;
+}
+
+.product-detail-input-list > textarea{
+  height: 100px;
+  width: 60%;
+}
+
+.product-detail-input-list > select{
+  width: 40%;
+}
+
+.product-detail-input-list > input[type="file"]{
+  height: 4vw;
+}
+
+.product-detail-input-list > button{
+  font-size: 1.2vw;
+  height: 2vw;
+  width: 7vw;
+  margin:  10px 0 10px 0;
+}
+
+
+.product-detail-input-list img{
+  height: 100px;
+  width: auto;
+  max-width: 150px;
+  object-fit: scale-down;
+}
+
+.product-detail-buttons{
+  margin-top: 0px;
+  display: flex;
+}
+
+.product-detail-buttons > button{
+  font-size: 1.2vw;
+  height: 4vw;
+  width: 15vw;
+  margin:  10px 30px 10px 0;
+}
